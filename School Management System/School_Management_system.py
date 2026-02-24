@@ -1,5 +1,5 @@
 # Name : Angela Amani
-# Date : 23/02/2026
+# Date : 24/02/2026
 # Program to define a Person class for a school management system
 
 import customtkinter as ctk
