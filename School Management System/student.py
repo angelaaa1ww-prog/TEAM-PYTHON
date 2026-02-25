@@ -8,14 +8,10 @@
 from person import Person
 
 class Student(Person):
-    def __init__(self, student_id, name, course, phone):
-        super().__init__(name, phone)
+    def __init__(self, first_name, last_name, phone, student_id, course):
+        super().__init__(first_name, last_name, phone)
         self.student_id = student_id
         self.course = course
 
-    def display_student(self):
-        print(f"ID: {self.student_id}")
-        print(f"Name: {self.name}")
-        print(f"Course: {self.course}")
-        print(f"Phone: {self.phone}")
-        print("----------------------------")
+    def get_details(self):
+        return f"{self.first_name} {self.last_name} | Phone: {self.phone} | ID: {self.student_id} | Course: {self.course}"
