@@ -1,3 +1,9 @@
+# Name : TEAM PYTHON
+# Date :24/02/2026
+# Progrma to run a school management system
+
+
+
 import tkinter as tk
 from tkinter import messagebox
 from student import Student  # <- make sure student.py is in the same folder
